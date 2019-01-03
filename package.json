@@ -1,0 +1,24 @@
+{
+  "name": "siteduchef",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adilkedjar/site-duchef.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adilkedjar/site-duchef/issues"
+  },
+  "homepage": "https://github.com/adilkedjar/site-duchef#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.6.3",
+    "bootstrap": "^4.2.1",
+    "sass": "^1.15.2"
+  }
+}
