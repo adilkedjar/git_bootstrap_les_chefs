@@ -5,6 +5,7 @@
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+@import '../node_modules/@fortawesome/fontawesome-free/css/all.css';
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -9562,6 +9563,93 @@ h3 {
 
 .rose {
   color: #b02939;
+}
+
+.fond2 {
+  background-image: url("../images/main_bg.jpg");
+}
+
+.book {
+  font-family: "Courgette", cursive;
+}
+
+.fondb {
+  background-color: white;
+}
+
+.our {
+  font-family: "Courgette", cursive;
+}
+
+.box-left {
+  float: left;
+}
+
+.box-right {
+  float: right;
+}
+
+.textebook {
+  font-size: 15px;
+}
+
+.cafe {
+  border-radius: 25rem;
+  width: 80%;
+  border: solid;
+  border-color: gray;
+  float: left;
+}
+
+.coffee {
+  font-family: "Courgette", cursive;
+  font-size: 30px;
+}
+
+.tasse {
+  color: #b02939;
+}
+
+.bordure {
+  border-right: solid 4px;
+  border-bottom: solid 1px;
+  border-right-color: #b02939;
+  border-bottom-color: gray;
+}
+
+.bordur {
+  border-right: solid 1px;
+  border-bottom: solid 1px;
+  border-color: gray;
+}
+
+.dollar {
+  display: flex;
+  background-color: whitesmoke;
+  color: #b02939;
+}
+
+.borduretxt {
+  border-bottom: dotted 1px;
+  border-color: gray;
+}
+
+.size {
+  font-size: 0.89rem;
+}
+
+.col-5 {
+  padding-right: 40px;
+  padding-top: 15px;
+}
+
+.pad {
+  padding-top: 65px;
+}
+
+.borduure {
+  border-right: solid 1px;
+  border-color: gray;
 }
 
 /*# sourceMappingURL=style.css.map */
