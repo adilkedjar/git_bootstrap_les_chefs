@@ -9513,12 +9513,12 @@ h3 {
   }
 }
 .banner1 {
-  background-image: "../images/banner1.jpg";
+  background-image: url("../images/banner1.jpg");
 }
 
 .opac {
   padding-bottom: 25%;
-  background: "../images/bottom_decoration_img.png" bottom repeat-x, linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+  background: url("../images/bottom_decoration_img.png") bottom repeat-x, linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
 }
 
 .occasion {
