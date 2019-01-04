@@ -9513,12 +9513,12 @@ h3 {
   }
 }
 .banner1 {
-  background-image: url("../images/banner1.jpg");
+  background-image: "../images/banner1.jpg";
 }
 
 .opac {
   padding-bottom: 25%;
-  background: url("../images/bottom_decoration_img.png") bottom repeat-x, linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+  background: "../images/bottom_decoration_img.png" bottom repeat-x, linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
 }
 
 .occasion {
@@ -9673,6 +9673,70 @@ h3 {
 .HR {
   border-bottom: solid 1px;
   border-bottom-color: gray;
+}
+
+.card {
+  background-image: url("../images/book_table_bg.jpg");
+  border-radius: 0.25rem;
+  padding-right: 50%;
+}
+
+.btnn {
+  border-radius: 25rem;
+  background-color: #b02939;
+  margin-left: 33%;
+  margin-right: 33%;
+}
+
+.numero {
+  font-size: 25px;
+}
+
+.form-control {
+  border-radius: 0.7rem;
+}
+
+.cards-img {
+  border-radius: 0.25rem;
+}
+
+.bordeer {
+  background-color: #b02939;
+  border-radius: 0.7rem;
+  font-size: 24px;
+  padding: 25px 14px;
+  text-decoration: none !important;
+  color: white;
+}
+.bordeer:hover {
+  color: red;
+}
+
+.ipsum {
+  margin-top: 40px;
+  float: left;
+  padding-left: 55px;
+}
+
+.ipsum2 {
+  margin-top: 40px;
+  float: left;
+  padding-left: 45px;
+}
+
+.ipsum3 {
+  margin-top: 40px;
+  float: left;
+  padding-left: 49px;
+}
+
+.know {
+  border-radius: 25rem;
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  background-color: #b02939;
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
