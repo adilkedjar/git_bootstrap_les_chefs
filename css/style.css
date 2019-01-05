@@ -9739,4 +9739,13 @@ h3 {
   color: white;
 }
 
+.testimonial {
+  background-image: url("../images/testimonials_background.jpg");
+}
+
+.client {
+  font-family: "Courgette", cursive;
+  font-size: 50px;
+}
+
 /*# sourceMappingURL=style.css.map */
