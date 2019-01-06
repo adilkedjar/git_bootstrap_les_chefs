@@ -9512,6 +9512,10 @@ h3 {
     border-color: #dee2e6;
   }
 }
+header {
+  overflow: hidden;
+}
+
 .banner1 {
   background-image: url("../images/banner1.jpg");
 }
@@ -9534,6 +9538,8 @@ h3 {
   border-radius: 25rem;
   background-color: whitesmoke;
   border: 0;
+  font-size: 15px;
+  padding: 15px 20px;
 }
 .bouton:hover {
   background-color: #b02939;
@@ -9543,6 +9549,8 @@ h3 {
   border-radius: 25rem;
   background-color: #b02939;
   border: 0;
+  font-size: 15px;
+  padding: 15px 20px;
 }
 .bouton1:hover {
   background-color: withesmoke;
@@ -9746,6 +9754,125 @@ h3 {
 .client {
   font-family: "Courgette", cursive;
   font-size: 50px;
+}
+
+.femme {
+  border-radius: 25rem;
+  width: 80%;
+  border: solid;
+  border-color: gray;
+  float: left;
+}
+
+.femme2 {
+  border-radius: 25rem;
+  width: 80%;
+  border: solid;
+  border-color: gray;
+  float: right;
+}
+
+.cartef {
+  border: solid 1px;
+  border-radius: 1rem;
+  border-color: white;
+  padding: 10px 10px;
+  padding-top: 20px;
+}
+
+.clochetes {
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.decora {
+  padding-bottom: 50px;
+}
+
+.cli {
+  padding-bottom: 80px;
+}
+
+.fond4 {
+  background-image: url("../images/main_bg.jpg");
+}
+
+.contact {
+  font-family: "Courgette", cursive;
+  font-size: 50px;
+}
+
+.call {
+  border: solid 1px;
+  border-radius: 1rem;
+  border-color: white;
+  padding-top: 20px;
+  background-color: #b02939;
+}
+
+.fors {
+  font-size: 19px;
+}
+
+.footer {
+  background-image: url("../images/footer_background.jpg");
+}
+
+.insta {
+  padding-top: 45px;
+  margin-right: 155px;
+}
+
+.aboutus {
+  padding-top: 1rem;
+  padding-left: 5rem;
+}
+
+.fclique {
+  background-color: #b02939;
+  color: white;
+  border-radius: 25rem;
+  padding: 0.25rem 0.9rem;
+  border: solid 1px;
+  border-color: white;
+}
+
+.sociaux {
+  padding-top: 45px;
+  margin-left: 30px;
+}
+
+.popular {
+  overflow: hidden;
+}
+
+.ligne {
+  border-bottom: solid 1px;
+  border-bottom-color: white;
+  width: 90%;
+}
+
+.fass {
+  background-color: #b02939;
+  padding: 40px 0;
+}
+
+.navbarr {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  padding-top: 70px;
+  text-align: -webkit-center;
+}
+
+.case {
+  background-color: #b02939;
+}
+
+.img {
+  padding-right: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */
