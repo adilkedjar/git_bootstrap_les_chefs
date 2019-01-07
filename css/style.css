@@ -9617,6 +9617,7 @@ header {
 .coffee {
   font-family: "Courgette", cursive;
   font-size: 30px;
+  color: black;
 }
 
 .tasse {
@@ -9907,6 +9908,69 @@ header {
 }
 .cui {
   margin-top: 5px;
+}
+
+.line {
+  margin-left: 357px;
+}
+
+#v-pills-home-tab {
+  background-color: white;
+  border-right: solid 1px;
+  border-right-color: gray;
+  border-color-right: gray;
+  border-color-right: blue;
+  border-bottom: solid 1px;
+  border-bottom-color: gray;
+}
+#v-pills-home-tab:focus {
+  border-right-color: #b02939 10px;
+}
+
+#v-pills-profile-tab {
+  background-color: white;
+  border-bottom: solid 1px;
+  border-bottom-color: gray;
+  border-right: solid 1px;
+  border-right-color: gray;
+}
+#v-pills-profile-tab:focus {
+  border-right-color: #b02939;
+}
+
+#v-pills-messages-tab {
+  background-color: white;
+  border-bottom: solid 1px;
+  border-bottom-color: gray;
+  border-right: solid 1px;
+  border-right-color: gray;
+}
+#v-pills-messages-tab:focus {
+  border-right-color: #b02939;
+}
+
+#v-pills-settings-tab {
+  border-bottom: solid 1px;
+  border-bottom-color: gray;
+  border-right: solid 1px;
+  border-right-color: gray;
+  background-color: white;
+}
+#v-pills-settings-tab:focus {
+  border-right-color: #b02939;
+}
+
+#v-pills-tab a {
+  border-right: 4px solid grey;
+}
+#v-pills-tab a .icone {
+  color: gray;
+}
+#v-pills-tab a.active {
+  border-right-color: #b02939;
+}
+#v-pills-tab a.active .icone {
+  color: #b02939;
 }
 
 /*# sourceMappingURL=style.css.map */
