@@ -9579,10 +9579,13 @@ header {
 
 .book {
   font-family: "Courgette", cursive;
+  border-bottom: 10px solid transparent;
+  border-image: url("../images/decoration_line.png") 10 stretch;
 }
 
 .fondb {
   background-color: white;
+  padding-bottom: 119px;
 }
 
 .our {
@@ -9607,6 +9610,8 @@ header {
   border: solid;
   border-color: gray;
   float: left;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .coffee {
@@ -9685,15 +9690,16 @@ header {
 
 .card {
   background-image: url("../images/book_table_bg.jpg");
-  border-radius: 0.25rem;
+  border-radius: 1.25rem;
   padding-right: 50%;
 }
 
 .btnn {
   border-radius: 25rem;
   background-color: #b02939;
-  margin-left: 33%;
-  margin-right: 33%;
+  width: 50%;
+  align-items: center;
+  margin-left: 25%;
 }
 
 .numero {
@@ -9745,6 +9751,7 @@ header {
   line-height: 1.5;
   background-color: #b02939;
   color: white;
+  margin-left: 65px;
 }
 
 .testimonial {
@@ -9762,6 +9769,7 @@ header {
   border: solid;
   border-color: gray;
   float: left;
+  margin-top: 5px;
 }
 
 .femme2 {
@@ -9770,6 +9778,7 @@ header {
   border: solid;
   border-color: gray;
   float: right;
+  margin-top: 5px;
 }
 
 .cartef {
@@ -9778,6 +9787,7 @@ header {
   border-color: white;
   padding: 10px 10px;
   padding-top: 20px;
+  margin-top: 5px;
 }
 
 .clochetes {
@@ -9873,6 +9883,30 @@ header {
 
 .img {
   padding-right: 30px;
+  border-radius: 1rem;
+  margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+  .cafe {
+    width: 120px !important;
+    margin-left: 190px;
+  }
+}
+@media (max-width: 768px) {
+  .femme {
+    width: 120px !important;
+    margin-left: 190px;
+  }
+}
+@media (max-width: 768px) {
+  .femme2 {
+    width: 120px !important;
+    margin-left: 190px;
+  }
+}
+.cui {
+  margin-top: 5px;
 }
 
 /*# sourceMappingURL=style.css.map */
