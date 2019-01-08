@@ -3,13 +3,14 @@
 
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2)
+ 
     
 header
     overflow: hidden
 
 
 .opac
-    background: url('../images/bottom_decoration_img.png') bottom repeat-x,linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6))
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6))
 
 .occasion
     padding-top: 20%
@@ -373,3 +374,15 @@ header
         border-right-color: #b02939
         .icone
             color: #b02939
+.carousel-item-active
+    position: relative
+#bg-carou
+    position: absolute
+    top: 0
+    bottom: 0
+    width: 100%
+    opacity: 0.5
+    background-color: black
+
+.carou
+    width: 1283px
