@@ -9557,7 +9557,8 @@ header {
 }
 
 .logo {
-  padding-left: 15px;
+  padding-top: 5%;
+  padding-left: 12px;
 }
 
 .navbar {
@@ -9687,15 +9688,12 @@ header {
 .card {
   background-image: url("../images/book_table_bg.jpg");
   border-radius: 1.25rem;
-  padding-right: 50%;
 }
 
 .btnn {
   border-radius: 25rem;
   background-color: #b02939;
-  width: 50%;
   align-items: center;
-  margin-left: 25%;
 }
 
 .numero {
@@ -9713,7 +9711,6 @@ header {
 .bordeer {
   background-color: #b02939;
   border-radius: 0.7rem;
-  font-size: 24px;
   padding: 25px 14px;
   text-decoration: none !important;
   color: white;
@@ -9865,7 +9862,6 @@ header {
 
 .navbarr {
   display: flex;
-  flex-direction: column;
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
@@ -9886,19 +9882,17 @@ header {
 @media (max-width: 768px) {
   .cafe {
     width: 120px !important;
-    margin-left: 190px;
+    margin-left: 130px;
   }
 }
 @media (max-width: 768px) {
   .femme {
     width: 120px !important;
-    margin-left: 190px;
   }
 }
 @media (max-width: 768px) {
   .femme2 {
     width: 120px !important;
-    margin-left: 190px;
   }
 }
 .cui {
@@ -9981,8 +9975,17 @@ header {
   background-color: black;
 }
 
-.carou {
-  width: 1283px;
+.commentaire {
+  background-color: #b02939;
+  bottom: 50%;
+}
+
+.box-top {
+  overflow: hidden;
+}
+
+.formulaire {
+  float: right;
 }
 
 /*# sourceMappingURL=style.css.map */
