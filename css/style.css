@@ -9709,8 +9709,8 @@ header {
 }
 
 .bordeer {
+  border-radius: 1.5rem;
   background-color: #b02939;
-  border-radius: 0.7rem;
   padding: 25px 14px;
   text-decoration: none !important;
   color: white;
@@ -9725,18 +9725,6 @@ header {
   padding-left: 55px;
 }
 
-.ipsum2 {
-  margin-top: 40px;
-  float: left;
-  padding-left: 45px;
-}
-
-.ipsum3 {
-  margin-top: 40px;
-  float: left;
-  padding-left: 49px;
-}
-
 .know {
   border-radius: 25rem;
   padding: 0.5rem 1rem;
@@ -9744,7 +9732,6 @@ header {
   line-height: 1.5;
   background-color: #b02939;
   color: white;
-  margin-left: 65px;
 }
 
 .testimonial {
@@ -9874,9 +9861,8 @@ header {
 }
 
 .img {
-  padding-right: 30px;
-  border-radius: 1rem;
   margin-top: 30px;
+  border-radius: 2rem;
 }
 
 @media (max-width: 768px) {
@@ -9986,6 +9972,23 @@ header {
 
 .formulaire {
   float: right;
+}
+
+.nourriture {
+  width: 100%;
+}
+
+.taille {
+  width: 80%;
+}
+
+.lorem {
+  margin-right: 23.8rem;
+  padding-bottom: 5%;
+}
+
+.blo {
+  margin-left: 10%;
 }
 
 /*# sourceMappingURL=style.css.map */
