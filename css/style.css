@@ -9711,7 +9711,7 @@ header {
 .bordeer {
   border-radius: 1.5rem;
   background-color: #b02939;
-  padding: 25px 14px;
+  padding: 25px 5px;
   text-decoration: none !important;
   color: white;
 }
@@ -9979,11 +9979,11 @@ header {
 }
 
 .taille {
-  width: 80%;
+  width: 95%;
 }
 
 .lorem {
-  margin-right: 23.8rem;
+  margin-right: 20.5rem;
   padding-bottom: 5%;
 }
 
