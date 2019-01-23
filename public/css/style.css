@@ -9773,6 +9773,7 @@ header {
 .clochetes {
   padding-top: 50px;
   padding-bottom: 30px;
+  text-align-last: center;
 }
 
 .decora {
@@ -9989,6 +9990,14 @@ header {
 
 .blo {
   margin-left: 10%;
+}
+
+.navv {
+  padding-top: 14px;
+}
+
+.conta {
+  text-align-last: center;
 }
 
 /*# sourceMappingURL=style.css.map */
